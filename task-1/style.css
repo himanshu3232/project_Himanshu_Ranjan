@@ -1,5 +1,6 @@
 ul {
   list-style: none;
-  display: flex;
-  gap: 1rem;
+}
+#search-bar {
+  border: 2px solid black;
 }
