@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nav-Bar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <h3>CODERFLIX</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">TV Shows</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">New & Popular</a></li>
+        <li><a href="#">My List</a></li>
+        <li><a href="#">Browse by Languages</a></li>
+      </ul>
+      <div class="profile">
+        <div class="search">
+          <label for="search-box">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+            >
+              <path fill="none" d="M0 0h24v24H0z" />
+              <path
+                d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                fill="white"
+              />
+            </svg>
+          </label>
+          <input
+            type="text"
+            id="search-box"
+            placeholder="Titles,people,generes"
+          />
+        </div>
+        <p>Children</p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="24"
+          height="24"
+        >
+          <path
+            d="M12 2C10.89 2 10 2.89 10 4V7H14V4C14 2.89 13.11 2 12 2ZM7.5 7.78C8.62 6.63 10.09 6 11.69 6C13.3 6 14.78 6.63 15.91 7.78C17.04 8.93 17.62 10.45 17.5 12V17L19 19H5L6.5 17V12C6.38 10.45 6.96 8.93 8.09 7.78ZM12 22C13.11 22 14 21.11 14 20H10C10 21.11 10.89 22 12 22Z"
+            fill="white"
+          />
+
+          <circle cx="16" cy="5" r="7" fill="red" />
+          <text
+            x="16"
+            y="5.5"
+            text-anchor="middle"
+            fill="white"
+            font-size="10px"
+            dy=".3em"
+          >
+            7
+          </text>
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 150 50"
+          width="150"
+        >
+          <rect x="0" y="10" width="30" height="30" fill="yellow" />
+          <circle cx="10" cy="25" r="3" fill="black" />
+          <circle cx="20" cy="25" r="3" fill="black" />
+          <path
+            d="M10 35 Q15 40 20 35"
+            fill="none"
+            stroke="black"
+            stroke-width="1"
+          />
+          <rect x="40" y="10" width="10" height="10" fill="black" />
+          <polygon points="35,20 45,20 40,25" fill="white" />
+        </svg>
+      </div>
+    </nav>
+  </body>
+</html>
