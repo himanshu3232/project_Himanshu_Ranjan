@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.card {
+  background-color: rgb(20, 20, 23);
+  height: max-content;
+  width: max-content;
+  margin: 10% auto;
+}
+img {
+  width: 20rem;
+  height: 16rem;
+}
+.card-content {
+  padding: 0.5rem;
+  margin-left: 1rem;
+}
+.watch-hrs {
+  display: flex;
+  gap: 1rem;
+}
