@@ -1,0 +1,69 @@
+body {
+  background-color: rgb(20, 20, 23);
+  color: white;
+}
+.card {
+  width: 12rem;
+  height: 7rem;
+  background-color: rgba(128, 128, 128, 0.463);
+  color: rgba(27, 9, 9, 0.448);
+}
+main {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.card-container {
+  display: flex;
+  gap: 1rem;
+}
+h5 {
+  margin: 25%;
+}
+nav {
+  background-color: black;
+}
+h3 {
+  color: red;
+}
+.nav-bar {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.search {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid white;
+  align-items: center;
+}
+#search-box {
+  background-color: black;
+  border: none;
+  color: white;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 0.5rem;
+}
+#search-box:focus {
+  outline: none;
+  border: none;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: auto;
+}
