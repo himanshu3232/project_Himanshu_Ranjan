@@ -17,7 +17,7 @@ img {
   display: block;
 }
 
-#tooltip {
+#box {
   display: none;
   position: absolute;
   top: -30px;
