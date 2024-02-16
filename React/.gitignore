@@ -24,9 +24,9 @@ dist-ssr
 *.sw?
 
 #Custom
-.esclintrc.cjs
+.eslintrc.cjs
 package-lock.json
 package.json
 tsconfig.json
 tsconfig.node.json
-vite.config.json
+vite.config.ts
