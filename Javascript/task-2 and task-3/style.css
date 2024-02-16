@@ -1,0 +1,22 @@
+.heartButton {
+  font-size: 24px;
+  padding: 10px 20px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  color: gray;
+}
+
+.heartButton.clicked {
+  color: red;
+}
+.card {
+  border: 2px solid black;
+  width: max-content;
+  margin: 20% 30%;
+}
+img {
+  width: 25vw;
+  height: 20vh;
+}
