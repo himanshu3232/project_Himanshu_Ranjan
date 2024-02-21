@@ -1,0 +1,38 @@
+.body {
+  background-color: black;
+  color: white;
+}
+
+.card {
+  background-color: rgb(20, 20, 23);
+  height: max-content;
+  width: max-content;
+  margin: 10% auto;
+}
+img {
+  width: 20rem;
+  height: 16rem;
+}
+.card-content {
+  padding: 0.5rem;
+  margin-left: 1rem;
+}
+.watch-hrs {
+  display: flex;
+  gap: 1rem;
+}
+.tool-tip-container {
+  position: relative;
+  display: inline-block;
+}
+.tool-tip {
+  position: absolute;
+  top: calc(-100% -50px);
+  transform: translateX(-50%);
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1;
+  min-width: 200px;
+}
