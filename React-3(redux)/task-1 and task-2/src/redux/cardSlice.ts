@@ -1,27 +1,30 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const initialState = {
-  likesCount: 0,
-  message:
-    "Chandramuki2 is a 2023 Indian Tamil-language comedy horror film written and directed by P. Vasu.",
+interface CardContext {
+  likes: number;
+  descriptionVisibility: boolean;
+}
+const initialState: CardContext = {
+  likes: 0,
+  descriptionVisibility: false,
 };
 
-export const cardSlice = createSlice({
+const cardSlice = createSlice({
   name: "card",
   initialState,
   reducers: {
     incrementLikesCount: (state) => {
-      state.likesCount++;
+      state.likes++;
     },
     decrementLikesCount: (state) => {
-      state.likesCount--;
+      state.likes--;
     },
-    setMessage: (state, action) => {
-      state.message = action.payload;
+    toggleDescription: (state) => {
+      state.descriptionVisibility = !state.descriptionVisibility;
     },
   },
 });
 
-export const { incrementLikesCount, decrementLikesCount, setMessage } =
+export const { incrementLikesCount, toggleDescription, decrementLikesCount } =
   cardSlice.actions;
 export default cardSlice.reducer;
